@@ -1,0 +1,45 @@
+
+HelloNiraj
+HelloNiraj
+HelloNiraj
+Hello Niraj
+Hello Niraj
+Hello Niraj
+Hello Niraj
+Hello Niraj
+Hello Niraj
+Hello Niraj
+Hello Niraj
+Hello Niraj
+Hello Niraj
+Hello Niraj
+Hello Niraj
+Hello Niraj
+Hello Niraj
+Hello Niraj
+Hello Niraj
+Hello Niraj
+Hello Niraj
+Hello Niraj
+Hello Niraj
+Hello Niraj
+Hello Niraj
+
+
+// app.get('/burger', (req,res)=>{
+//     res.send('sure sir, i would love to serve burger ')
+// })
+
+// app.get('/pizza',(req,res)=>{
+//     res.send('welcome to my hotel and would love to serve pizaa!')
+// } )
+
+// app.get('/idli',(req,res)=>{
+//     var customized_idli = {
+//         name:'rava idli',
+//         size:'10 cm diameter',
+//         is_sambhar:true,
+//         is_chatni:false
+//     }
+//     res.send(customized_idli)
+// })
