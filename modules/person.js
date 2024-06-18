@@ -57,10 +57,10 @@ personSchema.pre('save', async function(next) {
         const salt = await bcrypt.genSalt(10);
 
         // Hash password
-        const hashPassword = bcrypt.hash(person.password, salt);
+        const hashedPassword = await bcrypt.hash(person.password, salt);
 
         // Override the plain password with the hashed one
-        person.password = hashPassword;
+        person.password = hashedPassword;
         next(); 
     }
     catch (error) {
